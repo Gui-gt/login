@@ -28,7 +28,8 @@ section#login{
     transform: translate(-50%, -50%);
 
     overflow: hidden;
-
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
     background-color: white;
     height: 500px;
     width: 250px;
